@@ -58,32 +58,36 @@
             				</select>
             			</li>-->
             			<li>
-            				<label for="nameLabel" required autofocus>Name: </label>
-            				<input id="nameLabel" type="text" name="userName" placeholder="John Smith" size="20" required />
+            				<label for="nameLabel" required autofocus>Name: &nbsp;&nbsp;&nbsp;</label>
+            				<input id="nameLabel" type="text" name="userName" placeholder="John Smith" size="45" required />
             			</li>
+                        <li>
+                            <label>Email: &nbsp;&nbsp;&nbsp;</label>
+                            <input type="email" name="email" size="45" placeholder="example@example.com"></input>
+                        </li>
             			<li>
             				<label for="addressOneLabel">Address: </label>
-            				<input id="addressOneLabel" type="text" name="addressOne" placeholder="Street address, P.O. box,  company name, c/o" size="25" required />
+            				<input id="addressOneLabel" type="text" name="addressOne" placeholder="Street address, P.O. box,  company name, c/o" size="45" required />
             			</li>            			
             			<li>
             				<label for="addressTwoLabel">Address: </label>
-            				<input id="addressTwoLabel" type="text" name="addressOne" placeholder="Apartment, suite, unit, building, floor, etc." size="25" />
+            				<input id="addressTwoLabel" type="text" name="addressOne" placeholder="Apartment, suite, unit, building, floor, etc." size="45" />
             			</li>        
             			<li>
-            				<label for="cityLabel">City: </label>
-            				<input id="cityLabel" type="text" name="city" placeholder="City" required />
+            				<label for="cityLabel">City: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            				<input id="cityLabel" type="text" name="city" placeholder="City" size="45" required />
             			</li>
             			<li>
-            				<label for="stateLabel">State: </label>
-            				<input id="stateLabel" type="text" name="state" placeholder="State/Province/Region" required />
+            				<label for="stateLabel">State: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            				<input id="stateLabel" type="text" name="state" placeholder="State/Province/Region" size="45" required />
             			</li>
             			<li>
-            				<label for="zipLabel">Zip: </label>
-            				<input id="zipLabel" type="text" name="zip" placeholder="98122" required pattern="^[0-9]{5}"/>
+            				<label for="zipLabel">Zip:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            				<input id="zipLabel" type="text" name="zip" placeholder="98122" size="45" required pattern="^[0-9]{5}"/>
             			</li>
             			<li>
-            				<label for="phoneLabel">Phone number: </label>
-            				<input id="phoneLabel" type="tel" name="phone" placeholder="206-555-1234" required />
+            				<label for="phoneLabel">Phone:  &nbsp;&nbsp;</label>
+            				<input id="phoneLabel" type="tel" name="phone" placeholder="206-555-1234" size="45" required />
             			</li>
 
             			<li>
@@ -109,11 +113,12 @@
             				</select>
             			</li>
 						<li>
-            				<label>Please enter a tip for your delivery person. (We will be sure they get it. winkwink nodnod)</label>
+            				<label>Please enter a tip for your delivery person.<br />
+                                (We will be sure they get it. winkwink nodnod)</label>
             				<input type="number" name="donation" value="100" min="0" max="1000" placeholder="100"></input>
             			</li>
             			
-            			<li>
+            			<!--<li>
             				<label for="dobLabel">Date of Birth: </label>
             				<select name="dob" placeholder="Select one" required>
             					<option value="1">1</option>
@@ -127,11 +132,8 @@
             					<option value="9">9</option>
             					<option value="10">10</option>
             				</select>
-            			</li>
-            			<li>
-            				<label>Please enter a valid email</label>
-            				<input type="email" name="email" placeholder="example@example.com"></input>
-            			</li>
+            			</li>-->
+            			
             			
             			
 
