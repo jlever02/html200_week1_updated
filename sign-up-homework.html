@@ -48,14 +48,15 @@
                     <h2>Bill & ship to the below address!</h2>-->	
 
             		<ul>
-            			<li>
+            			<!-- Leaving this in for future release
+                        <li>
             				<label for="shippingBillingLabel">Is this Shipping: </label>
             				<select name="shippingBillingInfo" placeholder="Select one" required>
             					<option value="billing">Billing</option>
             					<option value="shipping">Shipping</option>
             					<option value="shippingBilling">Both</option>
             				</select>
-            			</li>
+            			</li>-->
             			<li>
             				<label for="nameLabel" required autofocus>Name: </label>
             				<input id="nameLabel" type="text" name="userName" placeholder="John Smith" size="20" required />
@@ -66,7 +67,7 @@
             			</li>            			
             			<li>
             				<label for="addressTwoLabel">Address: </label>
-            				<input id="addressTwoLabel" type="text" name="addressOne" placeholder="Apartment, suite, unit, building, floor, etc." size="25" required />
+            				<input id="addressTwoLabel" type="text" name="addressOne" placeholder="Apartment, suite, unit, building, floor, etc." size="25" />
             			</li>        
             			<li>
             				<label for="cityLabel">City: </label>
@@ -81,7 +82,7 @@
             				<input id="zipLabel" type="text" name="zip" placeholder="98122" required pattern="^[0-9]{5}"/>
             			</li>
             			<li>
-            				<label for="phoneLabel">Phone numbe3r: </label>
+            				<label for="phoneLabel">Phone number: </label>
             				<input id="phoneLabel" type="tel" name="phone" placeholder="206-555-1234" required />
             			</li>
 
